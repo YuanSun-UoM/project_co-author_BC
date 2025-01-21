@@ -119,7 +119,7 @@ rad_diag_1 =
 
 - var3 = ds['FLNT']-ds['FLNT']是BC造成的长波辐射的TOA的变化
 
-- BC_DRE = var1 - var3 (辐射变化向下为正，向上为负)
+- BC_DRE = var1 - var3 (辐射变化向下为正，向上为负, BC_DRE是长波辐射变化和短波辐射变化的累计效应)
 
 - 有时候想计算所有气溶胶的DRE，或者只是OC_DRE，则需要多次调用该辐射模块，相应生成 FSNT_d2，FSNT_d3等变量
 
